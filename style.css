@@ -1,13 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body{
-  left: 50%;
-  top: 50%;
+  color: #eee;
+  font-family: 'Press Start 2P', sans-serif;
+}
+.layer0{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 .layer1 {
+  width: 75%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+header, main, footer{
+  background: #222;
+  width: 60%;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header p {
+  margin: 10px;
+}
+
+header h1 {
+  color: yellow;
+  margin: 10px;
+}
+.secretNumber {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: #eee;
+  color: #222;
+  margin: 20px;
+  font-size: 25px;
+}
+
+main {
+  height: 18vh;
+  justify-content: space-around;
+}
+
+main input {
+  padding: 10px;
+  margin: 10px;
+}
+
+main p {
+  margin: 10px;
+}
+.message {
+  color: greenyellow;
+}
+
+.highscore {
+  color: rgb(212, 85, 212);
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  padding: 8px;
+  margin: 8px;
+  width: 100px;
 }

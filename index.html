@@ -9,26 +9,28 @@
   <script src="script.js"></script>
 </head>
 <body>
-  <div class="layer1">
-    <header>
-      Guess the secret number
-      <p>between 1 to 99</p>
-      <div class="secretNumber">?</div>
-    </header>
-    <main>
-      <div class="left">
-        <input type="number" class="guessedNumber">
-      </div>
-      <div class="right">
-        <p class="message">Let's start!</p>
-        <p class="label-score">Score <span class="score">20</span></p>
-        <p>🥇 Score Board: <span class="highscore">0</span></p>
-      </div>
-    </main>
-    <footer>
-      <button class="btn check">Check!</button>
-      <button class="btn again">Play Again!</button>
-    </footer>
+  <div class="layer0">
+    <div class="layer1">
+      <header>
+        <h1>Guess the secret number</h1>
+        <p>between 1 to 99</p>
+        <div class="secretNumber">?</div>
+      </header>
+      <main>
+        <div class="left">
+          <p class="message">Let's start!</p>
+          <input type="number" class="guessedNumber" placeholder="Enter a number...">
+        </div>
+        <div class="right">
+          <p class="label-score">Score: <span class="score">20</span></p>
+          <p>🥇 Score Board: <span class="highscore">0</span></p>
+        </div>
+      </main>
+      <footer>
+        <button class="btn check">Check!</button>
+        <button class="btn again">Play Again!</button>
+      </footer>
+    </div>
   </div>
 </body>
 </html>
