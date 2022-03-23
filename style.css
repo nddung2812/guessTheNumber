@@ -8,6 +8,7 @@
 body{
   color: #eee;
   font-family: 'Press Start 2P', sans-serif;
+  background-color: #FFD365;
 }
 .layer0{
   width: 100%;
@@ -69,6 +70,9 @@ main input {
   margin: 10px;
 }
 
+.guessedNumber {
+  font-family: inherit;
+}
 .guessedNumber::placeholder{
   font-family: 'Press Start 2P', sans-serif;
   font-size: 10px;
@@ -77,7 +81,7 @@ main p {
   margin: 10px;
 }
 .message {
-  color: greenyellow;
+  color: yellow;
 }
 
 .highscore {
