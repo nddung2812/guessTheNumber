@@ -9,4 +9,10 @@
 # Revised design
 <img src="photos/2ndAttempt.png" >
 
+# When users win the game
+<img src="photos/2ndAttemptWinning.png" >
+
+# When users lose the game
+<img src="photos/2ndAttemptLosing.png" >
+
 
