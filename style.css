@@ -45,6 +45,7 @@ header p {
 header h1 {
   color: yellow;
   margin: 10px;
+  font-size: 20px;
 }
 .secretNumber {
   display: flex;
@@ -56,11 +57,10 @@ header h1 {
   background-color: #eee;
   color: #222;
   margin: 20px;
-  font-size: 25px;
+  font-size: 45px;
 }
 
 main {
-  height: 18vh;
   justify-content: space-around;
 }
 
@@ -107,6 +107,7 @@ footer {
 
 .again {
   background-color: rgb(0, 81, 255);
+  width: 150px;
 }
 .check {
   background-color: green;

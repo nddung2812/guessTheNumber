@@ -1,7 +1,7 @@
 'use strict';
 let secretNumber = Math.trunc(Math.random() * 99 + 1)
 console.log(secretNumber)
-let score = 20;
+let score = 100;
 
 const displayMessage = (message) => {
   document.querySelector('.message').textContent = message
@@ -39,7 +39,7 @@ document.querySelector('.check').addEventListener('click', () => {
       : '📉 Too LOW!')
       document.querySelector('.message').style.color = "red"
       document.querySelector('body').style.backgroundColor = "red"
-      score --
+      score = score - 10
       document.querySelector('.score').textContent = score
       document.querySelector('.score').style.color = "red"
     }
@@ -51,8 +51,8 @@ document.querySelector('.check').addEventListener('click', () => {
 })
 
 document.querySelector('.again').addEventListener('click', () => {
-  secretNumber = Math.trunc(Math.random() * 20) + 1;
-  score = 20
+  secretNumber = Math.trunc(Math.random() * 99) + 1;
+  score = 100
   displayMessage("Let's play!")
   document.querySelector('.score').textContent = score
   displayNumber('?')
