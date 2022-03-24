@@ -136,9 +136,14 @@ footer {
 
   header, main, footer{
     width: 75%;
+    padding: 2px;
   }
   main p {
     margin: 14px;
     font-size: 10px;
+  }
+
+  .again {
+    margin: 0;
   }
 }
