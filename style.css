@@ -113,9 +113,9 @@ footer {
 
 @media only screen and (max-width: 600px) {
   main input {
-    padding: 8px;
-    width: 80px;
-    margin: 5px;
+    padding: 6px;
+    width: 90px;
+    margin: 4px;
   }
 
   .guessedNumber::placeholder{
