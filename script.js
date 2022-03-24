@@ -24,6 +24,8 @@ document.querySelector('.check').addEventListener('click', () => {
     document.querySelector('.secretNumber').style.width = "8rem"
     document.querySelector('.secretNumber').style.backgroundColor = "tomato"
     document.querySelector('.secretNumber').style.color = "white"
+    document.querySelector('.score').style.color = "#B5FE83"
+    document.querySelector('.score').style.fontSize = "20px"
     if (score > highscore) {
       highscore = score
       document.querySelector('.highscore').textContent = highscore
@@ -39,6 +41,7 @@ document.querySelector('.check').addEventListener('click', () => {
       document.querySelector('body').style.backgroundColor = "red"
       score --
       document.querySelector('.score').textContent = score
+      document.querySelector('.score').style.color = "red"
     }
     else {
       displayMessage('😭 You LOST!')

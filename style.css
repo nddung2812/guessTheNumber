@@ -129,12 +129,16 @@ footer {
   }
 
   .layer1 {
-    margin-top: -4%;
-    width: 95%;
+    margin-top: -2%;
+    width: 90%;
     height: 80vh;
   }
 
   header, main, footer{
     width: 75%;
+  }
+  main p {
+    margin: 20px;
+    font-size: 8px;
   }
 }
