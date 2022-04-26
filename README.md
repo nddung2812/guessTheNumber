@@ -1,4 +1,5 @@
 # A guessing game coded in vanilla JavaScript
+- https://guessnumber1to99.netlify.app/
 
 # How to play
 - Guess the right number from 1 to 99 in 10 attempts
